@@ -3,8 +3,8 @@ import javax.swing.*;
 public class SnakeGame extends JFrame{
     Board board;
     SnakeGame(){
-        board = new Board();
-        add(board);
+        board = new Board(); // initialize board object
+        add(board); // Adding board to SnakeGame object
         pack(); // to set size of frame equal(fit) to panel
         setResizable(false);
         setVisible(true);
